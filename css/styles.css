@@ -1,0 +1,49 @@
+/* PROYECTO: Naturitas - LLMM
+   COLORES PRINCIPALES:
+   1. Verde: #2D5A27 (Primario)
+   2. Crema: #F9F9F9 (Fondo)
+   3. Naranja: #FF9800 (Acento)
+*/
+
+:root {
+    --verde-principal: #2D5A27;
+    --fondo-claro: #F9F9F9;
+    --naranja-acento: #FF9800;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--fondo-claro);
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú horizontal pegado a la parte superior  */
+header {
+    background-color: var(--verde-principal);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* Ejemplo de animación sencilla  */
+.navbar li a:hover {
+    color: var(--naranja-acento);
+    transition: 0.3s;
+}
