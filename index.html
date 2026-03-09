@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santiveri - Vida Saludable y Natural</title>
+    <title>Santiveri - Inicio</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -22,29 +22,77 @@
     </header>
 
     <main>
-        <section class="parallax">
-            <div class="overlay">
-                <h1>SANTIVERI</h1>
-                <p>Líderes en dietética y alimentación natural desde 1885</p>
+        <section class="hero-inicio">
+            <div class="hero-inicio-img">
+                <img src="img/mujerfeliz.jpg" alt="Sobre Santiveri">
+            </div>
+            <div class="hero-inicio-texto">
+                <h1>Sobre Santiveri</h1>
+                <p>Somos pioneros en salud natural desde 1885. ¿Quieres conocernos un poco más?</p>
+                <a href="#" class="boton-verde">Conócenos</a>
             </div>
         </section>
 
-        <section class="intro-content">
-            <h2>Bienvenido a tu herbolario de confianza</h2>
-            <p>Descubre nuestra amplia gama de productos bio, suplementos y cosmética natural diseñada para tu bienestar.</p>
+        <section class="categorias-inicio">
+            <h2>Por eso, ponemos a tu alcance una amplia gama de productos destinados al bienestar integral.</h2>
             
-            <ul class="features-list">
-                <li>Productos 100% ecológicos y certificados.</li>
-                <li>Compromiso con la sostenibilidad y el medio ambiente.</li>
-                <li>Asesoramiento profesional en nutrición y salud.</li>
+            <div class="grid-categorias">
+                
+                <article class="categoria-card">
+                    <div class="img-contenedor">
+                        <img src="img/panes.png" alt="Alimentación">
+                    </div>
+                    <h3>Alimentación</h3>
+                    <p>Descubre nuestras opciones para que disfrutes mientras te cuidas.</p>
+                    <a href="alimentacion.html" class="link-saber-mas">Saber más &rarr;</a>
+                </article>
+
+                <article class="categoria-card">
+                    <div class="img-contenedor">
+                        <img src="img/comp.png" alt="Complementos Alimenticios">
+                    </div>
+                    <h3>Complementos alimenticios</h3>
+                    <p>Infórmate sobre nuestros complementos alimenticios y encuentra el que mejor se adapte a tus necesidades.</p>
+                    <a href="complementos.html" class="link-saber-mas">Saber más &rarr;</a>
+                </article>
+
+                <article class="categoria-card">
+                    <div class="img-contenedor fondo-gris">
+                        <img src="img/cosm.png" alt="Cosmética Natural">
+                    </div>
+                    <h3>Cosmética natural</h3>
+                    <p>Conoce nuestra gama de productos cosméticos para el cuidado de la piel y el cabello.</p>
+                    <a href="cosmetica.html" class="link-saber-mas">Saber más &rarr;</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="parallax-inferior">
+            <div class="parallax-contenido">
+                <h2>Conecta con tu lado más natural</h2>
+                <p>Únete a nuestro boletín y descubre consejos exclusivos, recetas saludables y las últimas novedades.</p>
+                <form class="formulario-boletin" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Tu correo electrónico..." required>
+                    <button type="submit">Suscribirme</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="ventajas-club">
+            <h3>¿Por qué elegir Santiveri?</h3>
+            <ul>
+                <li>🌿 Productos 100% ecológicos certificados.</li>
+                <li>🚚 Envíos gratuitos a partir de 30€.</li>
+                <li>👩‍⚕️ Asesoramiento nutricional experto.</li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <div class="footer-container">
-            <p>&copy; 2026 Proyecto LLMM - Grupo Santiveri (España)</p>
-            <p>Trabajo realizado por: Mireia Murillo,  [cite: 16]</p>
+        <div style="text-align: center; padding: 20px; background-color: #333; color: white; line-height: 1.6;">
+            <p style="margin: 0;">&copy; 2026 Proyecto LLMM - Grupo Santiveri (España)</p>
+            <p style="margin: 0; font-size: 0.9rem; color: #ccc;">Trabajo realizado por: Mireia Murillo, Jorge Manzanero y Elsa Romero</p>
         </div>
     </footer>
 
